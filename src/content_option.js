@@ -91,7 +91,8 @@ const dataportfolio = [
     title: "TAS StartUp Business",
     img: Tas1,
     screenshots: [Tas1, Tas2, Tas3],
-    shortDescription: "Track your trading goals and progress easily.",
+    shortDescription:
+      "A startup focused on building innovative digital solutions tailored for Tanzania’s needs.",
     description:
       "This is my startup, Tanzania Apps Solutions (TAS), where we focus on developing digital solutions for businesses and individuals. We create websites, web applications, and tools that solve real-world problems in Tanzania. Our company emphasizes innovation, usability, and delivering solutions that make life and work easier. TAS combines technology and creativity to build products that are both practical and user-friendly.",
     link: "/projects/project-6",
@@ -102,7 +103,8 @@ const dataportfolio = [
     title: "ToursConnect Booking System",
     img: Tour1,
     screenshots: [Tour1, Tour2, Tour3],
-    shortDescription: "Track your trading goals and progress easily.",
+    shortDescription:
+      "A platform that connects travelers with tours, bookings, and experiences in one place",
     description:
       "This is a tour booking web app where the admin of a specific tour company can add tours, and customers of that company can view and book those tours online. Customers can select tours, enter their personal details, and submit bookings directly through the system. Admins can manage all bookings, view customer information, and track payments easily. The system simplifies tour management for both users and admins, automating processes that were previously manual. It also improves the customer experience by making tour selection, booking, and payment smooth and efficient.",
     link: "/projects/project-7",
@@ -113,17 +115,19 @@ const dataportfolio = [
     title: "University Counseling System",
     img: Counsel1,
     screenshots: [Counsel1, Counsel2, Counsel3, Counsel4],
-    shortDescription: "Track your trading goals and progress easily.",
+    shortDescription:
+      "A digital platform to manage student counseling, guidance, and support services efficiently.",
     description:
       "Students can book counseling sessions and see them organized under upcoming or past sessions. They can edit or reschedule sessions if needed. Counselors can view all booked sessions through a dedicated dashboard, take session notes, and access analytics about their bookings. All sessions also appear in a calendar for easy planning. The system ensures smooth communication between students and counselors while keeping everything organized in one place.",
     link: "/projects/project-2",
   },
   {
     id: "project-5",
-    title: "Flame University Map",
+    title: "University Map",
     img: Map1,
     screenshots: [Map1, Map2],
-    shortDescription: "Track your trading goals and progress easily.",
+    shortDescription:
+      "An interactive map tool to help navigate and explore the University campus.",
     description:
       "This project provides an interactive map for members of Flame University. Users can explore the campus, locate buildings, and navigate around the university efficiently. It serves as a helpful guide for students, staff, and visitors. The map is easy to use and visually clear, making campus navigation simple. It’s designed specifically to improve the daily experience of the university community.",
     link: "/projects/project-5",
@@ -133,7 +137,8 @@ const dataportfolio = [
     title: "University System",
     img: Uni1,
     screenshots: [Uni1, Uni2, Uni3],
-    shortDescription: "Track your trading goals and progress easily.",
+    shortDescription:
+      "A comprehensive platform for managing academic, administrative, and student-related activities at Flame University.",
     description:
       "This system allows students to access IT services and a help desk from one platform. They can communicate with counselors, join study groups, and share or upload study materials. The system also provides information about jobs and internships posted by the university. It’s designed to create a connected and supportive environment for students. Overall, it helps students manage academic, social, and career-related activities efficiently. This is just Frontend for now but it will be developed more later.",
     link: "/projects/project-8",
@@ -143,7 +148,8 @@ const dataportfolio = [
     title: "Numerology Website",
     img: Numerology1,
     screenshots: [Numerology1, Numerology2],
-    shortDescription: "Track your trading goals and progress easily.",
+    shortDescription:
+      "An online platform that provides personalized numerology readings and predictions based on user data.",
     description:
       "This is a personalized numerology and life insights platform. Users can enter their birth date or name to get numerology reports. The site calculates life paths, predictions, and other numerology data. It presents the results in a clean and interactive way. Users can explore different numerology tools and charts.",
     link: "/projects/project-9",
@@ -153,7 +159,7 @@ const dataportfolio = [
     title: "Cyber Website Automation",
     img: Cyber1,
     screenshots: [Cyber1, Cyber2, Cyber3],
-    shortDescription: "Track your trading goals and progress easily.",
+    shortDescription: "A project that is automated using Selenium and Python.",
     description:
       "This project automates repetitive tasks on websites using Python and Selenium. It can log in, fill forms, navigate pages, and perform actions automatically, saving time and reducing errors. The automation makes processes faster and easier compared to doing everything by hand. It is useful for testing websites or performing regular tasks efficiently. The system is simple to use and improves productivity by letting the computer do the repetitive work.",
     link: "/projects/project-3",
@@ -163,7 +169,8 @@ const dataportfolio = [
     title: "E-commerce Website",
     img: Glow1,
     screenshots: [Glow1, Glow2, Glow3],
-    shortDescription: "Track your trading goals and progress easily.",
+    shortDescription:
+      "TAn online store for browsing and purchasing solar energy products easily.",
     description:
       "This is a simple frontend website designed for selling solar-powered products. Users can browse products, view details, and navigate the store with ease. The project focuses on creating a clean and modern interface for online shopping. It emphasizes usability and user experience, making it easy for customers to find and purchase products. Although it’s frontend-only, it demonstrates a professional and responsive e-commerce layout.",
     link: "/projects/project-4",

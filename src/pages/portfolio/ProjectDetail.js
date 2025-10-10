@@ -63,10 +63,6 @@ const ProjectDetail = () => {
           </div>
         ) : (
           <div className="project-detail">
-            <button className="btn btn-link mb-3" onClick={() => navigate(-1)}>
-              ← Back
-            </button>
-
             <h1>{project.title}</h1>
 
             {/* Gallery */}
