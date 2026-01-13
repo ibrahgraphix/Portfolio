@@ -24,6 +24,9 @@ import Tour3 from "./assets/images/Tour3.png";
 import Uni1 from "./assets/images/Uni1.png";
 import Uni2 from "./assets/images/Uni2.png";
 import Uni3 from "./assets/images/Uni3.png";
+import Mtaa1 from "./assets/images/Mtaa1.png";
+import Mtaa2 from "./assets/images/Mtaa2.png";
+import Mtaa3 from "./assets/images/Mtaa3.png";
 
 const logotext = "IBRAHIM";
 const meta = {
@@ -109,6 +112,17 @@ const dataportfolio = [
       "This is a tour booking web app where the admin of a specific tour company can add tours, and customers of that company can view and book those tours online. Customers can select tours, enter their personal details, and submit bookings directly through the system. Admins can manage all bookings, view customer information, and track payments easily. The system simplifies tour management for both users and admins, automating processes that were previously manual. It also improves the customer experience by making tour selection, booking, and payment smooth and efficient.",
     link: "/projects/project-7",
     live: "https://tourconnect-sepia.vercel.app/",
+  },
+  {
+    id: "project-10",
+    title: "MtaaMarket App- Ecommerce for Tanzania",
+    img: Tour1,
+    screenshots: [Mtaa1, Mtaa2, Mtaa3],
+    shortDescription:
+      "A platform that connects sellers and buyers in Tanzania.",
+    description:
+      "MtaaMarket is a simple local marketplace that helps small sellers and nearby buyers connect using WhatsApp. Sellers can sign up, add products, and manage their shop from an easy dashboard, while buyers browse products, visit seller shops, and contact sellers easily. An admin manages sellers, products, and categories, making MtaaMarket easy to use and friendly for small businesses.",
+    link: "/projects/project-10",
   },
   {
     id: "project-2",
