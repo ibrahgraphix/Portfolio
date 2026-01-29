@@ -15,9 +15,6 @@ import Map1 from "./assets/images/Map1.png";
 import Map2 from "./assets/images/Map2.png";
 import Numerology1 from "./assets/images/Numerology1.png";
 import Numerology2 from "./assets/images/Numerology2.png";
-import Tas1 from "./assets/images/Tas1.png";
-import Tas2 from "./assets/images/Tas2.png";
-import Tas3 from "./assets/images/Tas3.png";
 import Tour1 from "./assets/images/Tour1.png";
 import Tour2 from "./assets/images/Tour2.png";
 import Tour3 from "./assets/images/Tour3.png";
@@ -27,6 +24,9 @@ import Uni3 from "./assets/images/Uni3.png";
 import Mtaa1 from "./assets/images/Mtaa1.png";
 import Mtaa2 from "./assets/images/Mtaa2.png";
 import Mtaa3 from "./assets/images/Mtaa3.png";
+import Tas1 from "./assets/images/Tas1.png";
+import Tas2 from "./assets/images/Tas2.png";
+import Tas3 from "./assets/images/Tas3.png";
 
 const logotext = "IBRAHIM";
 const meta = {
@@ -89,18 +89,18 @@ const services = [
 ];
 
 const dataportfolio = [
-  {
-    id: "project-6",
-    title: "TAS StartUp Business",
-    img: Tas1,
-    screenshots: [Tas1, Tas2, Tas3],
-    shortDescription:
-      "A startup focused on building innovative digital solutions tailored for Tanzania’s needs.",
-    description:
-      "This is my startup, Tanzania Apps Solutions (TAS), where we focus on developing digital solutions for businesses and individuals. We create websites, web applications, and tools that solve real-world problems in Tanzania. Our company emphasizes innovation, usability, and delivering solutions that make life and work easier. TAS combines technology and creativity to build products that are both practical and user-friendly.",
-    link: "/projects/project-6",
-    live: "https://tanzaniaappssolutions.vercel.app/",
-  },
+  // {
+  //   id: "project-6",
+  //   title: "TAS StartUp Business",
+  //   img: Tas1,
+  //   screenshots: [Tas1, Tas2, Tas3],
+  //   shortDescription:
+  //     "A startup focused on building innovative digital solutions tailored for Tanzania’s needs.",
+  //   description:
+  //     "This is my startup, Tanzania Apps Solutions (TAS), where we focus on developing digital solutions for businesses and individuals. We create websites, web applications, and tools that solve real-world problems in Tanzania. Our company emphasizes innovation, usability, and delivering solutions that make life and work easier. TAS combines technology and creativity to build products that are both practical and user-friendly.",
+  //   link: "/projects/project-6",
+  //   live: "https://tanzaniaappssolutions.vercel.app/",
+  // },
   {
     id: "project-7",
     title: "ToursConnect Booking System",
