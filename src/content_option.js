@@ -24,9 +24,14 @@ import Uni3 from "./assets/images/Uni3.png";
 import Mtaa1 from "./assets/images/Mtaa1.png";
 import Mtaa2 from "./assets/images/Mtaa2.png";
 import Mtaa3 from "./assets/images/Mtaa3.png";
-import Tas1 from "./assets/images/Tas1.png";
-import Tas2 from "./assets/images/Tas2.png";
-import Tas3 from "./assets/images/Tas3.png";
+import Fork1 from "./assets/images/fork1.png";
+import Fork2 from "./assets/images/fork2.png";
+import Fork3 from "./assets/images/fork3.png";
+import Gaza1 from "./assets/images/gaza1.png";
+import Gaza2 from "./assets/images/gaza2.png";
+import Uzunguni1 from "./assets/images/uzunguni1.png";
+import Uzunguni2 from "./assets/images/uzunguni2.png";
+import Uzunguni3 from "./assets/images/uzunguni3.png";
 
 const logotext = "IBRAHIM";
 const meta = {
@@ -89,18 +94,6 @@ const services = [
 ];
 
 const dataportfolio = [
-  // {
-  //   id: "project-6",
-  //   title: "TAS StartUp Business",
-  //   img: Tas1,
-  //   screenshots: [Tas1, Tas2, Tas3],
-  //   shortDescription:
-  //     "A startup focused on building innovative digital solutions tailored for Tanzania’s needs.",
-  //   description:
-  //     "This is my startup, Tanzania Apps Solutions (TAS), where we focus on developing digital solutions for businesses and individuals. We create websites, web applications, and tools that solve real-world problems in Tanzania. Our company emphasizes innovation, usability, and delivering solutions that make life and work easier. TAS combines technology and creativity to build products that are both practical and user-friendly.",
-  //   link: "/projects/project-6",
-  //   live: "https://tanzaniaappssolutions.vercel.app/",
-  // },
   {
     id: "project-7",
     title: "ToursConnect Booking System",
@@ -123,6 +116,79 @@ const dataportfolio = [
     description:
       "MtaaMarket is a simple local marketplace that helps small sellers and nearby buyers connect using WhatsApp. Sellers can sign up, add products, and manage their shop from an easy dashboard, while buyers browse products, visit seller shops, and contact sellers easily. An admin manages sellers, products, and categories, making MtaaMarket easy to use and friendly for small businesses.",
     link: "/projects/project-10",
+  },
+  {
+    id: "project-12",
+    title: "Fashion Designer Website",
+    img: Gaza1,
+    screenshots: [Gaza1, Gaza2,],
+    shortDescription: "A stylish and elegant portfolio website designed to showcase fashion collections. ",
+    description:
+      "A stylish and elegant portfolio website designed to showcase fashion collections. It features a high-quality image gallery, latest designs, and an easy way for clients to get in touch.",
+    link: "/projects/project-12",
+    live: "https://gaza-boe.vercel.app/",
+  },
+   {
+    id: "project-11",
+    title: "Golden-Fork Restaurant Website",
+    img: Fork1,
+    screenshots: [Fork1, Fork2, Fork3],
+    shortDescription: "A modern restaurant website ",
+    description:
+      "A modern restaurant website featuring a dynamic menu display, online reservations, and a showcase of the restaurant's best dishes and ambiance.",
+    link: "/projects/project-11",
+  },
+  {
+    id: "project-13",
+    title: "Uzunguni-City Park Restaurant Website",
+    img: Uzunguni1,
+    screenshots: [Uzunguni1, Uzunguni2, Uzunguni3],
+    shortDescription: "A dynamic and user-friendly website for Uzunguni City Park Restaurant.",
+    description:
+      "A dynamic and user-friendly website for Uzunguni City Park Restaurant. It highlights the menu, location, and special events, offering customers a seamless browsing experience.",
+    link: "/projects/project-13",
+  },
+  {
+    id: "project-9",
+    title: "Numerology Website",
+    img: Numerology1,
+    screenshots: [Numerology1, Numerology2],
+    shortDescription:
+      "An online platform that provides personalized numerology readings and predictions based on user data.",
+    description:
+      "This is a personalized numerology and life insights platform. Users can enter their birth date or name to get numerology reports. The site calculates life paths, predictions, and other numerology data. It presents the results in a clean and interactive way. Users can explore different numerology tools and charts.",
+    link: "/projects/project-9",
+  },
+  {
+    id: "project-3",
+    title: "Cyber Website Automation",
+    img: Cyber1,
+    screenshots: [Cyber1, Cyber2, Cyber3],
+    shortDescription: "A project that is automated using Selenium and Python.",
+    description:
+      "This project automates repetitive tasks on websites using Python and Selenium. It can log in, fill forms, navigate pages, and perform actions automatically, saving time and reducing errors. The automation makes processes faster and easier compared to doing everything by hand. It is useful for testing websites or performing regular tasks efficiently. The system is simple to use and improves productivity by letting the computer do the repetitive work.",
+    link: "/projects/project-3",
+  },
+  {
+    id: "project-4",
+    title: "E-commerce Website",
+    img: Glow1,
+    screenshots: [Glow1, Glow2, Glow3],
+    shortDescription:
+      "Simple online store for browsing and purchasing solar energy products easily.",
+    description:
+      "This is a simple frontend website designed for selling solar-powered products. Users can browse products, view details, and navigate the store with ease. The project focuses on creating a clean and modern interface for online shopping. It emphasizes usability and user experience, making it easy for customers to find and purchase products. Although it’s frontend-only, it demonstrates a professional and responsive e-commerce layout.",
+    link: "/projects/project-4",
+  },
+  {
+    id: "project-1",
+    title: "Trading Challenge Tracker",
+    img: Challenge1,
+    screenshots: [Challenge1, Challenge2, Challenge3],
+    shortDescription: "Track your trading goals and progress easily.",
+    description:
+      "This project allows users to track their trading profits and monitor progress through different phases. When a phase is completed, the system generates a certificate that can be downloaded. Users can also manage their wallet by depositing or withdrawing funds manually after trading in MetaTrader. It functions similarly to a funded account platform, helping traders track performance and achievements in a structured way. The project is designed to make trading progress easy to follow and reward users for their milestones.",
+    link: "/projects/project-1",
   },
   {
     id: "project-2",
@@ -156,48 +222,6 @@ const dataportfolio = [
     description:
       "This system allows students to access IT services and a help desk from one platform. They can communicate with counselors, join study groups, and share or upload study materials. The system also provides information about jobs and internships posted by the university. It’s designed to create a connected and supportive environment for students. Overall, it helps students manage academic, social, and career-related activities efficiently. This is just Frontend for now but it will be developed more later.",
     link: "/projects/project-8",
-  },
-  {
-    id: "project-9",
-    title: "Numerology Website",
-    img: Numerology1,
-    screenshots: [Numerology1, Numerology2],
-    shortDescription:
-      "An online platform that provides personalized numerology readings and predictions based on user data.",
-    description:
-      "This is a personalized numerology and life insights platform. Users can enter their birth date or name to get numerology reports. The site calculates life paths, predictions, and other numerology data. It presents the results in a clean and interactive way. Users can explore different numerology tools and charts.",
-    link: "/projects/project-9",
-  },
-  {
-    id: "project-3",
-    title: "Cyber Website Automation",
-    img: Cyber1,
-    screenshots: [Cyber1, Cyber2, Cyber3],
-    shortDescription: "A project that is automated using Selenium and Python.",
-    description:
-      "This project automates repetitive tasks on websites using Python and Selenium. It can log in, fill forms, navigate pages, and perform actions automatically, saving time and reducing errors. The automation makes processes faster and easier compared to doing everything by hand. It is useful for testing websites or performing regular tasks efficiently. The system is simple to use and improves productivity by letting the computer do the repetitive work.",
-    link: "/projects/project-3",
-  },
-  {
-    id: "project-4",
-    title: "E-commerce Website",
-    img: Glow1,
-    screenshots: [Glow1, Glow2, Glow3],
-    shortDescription:
-      "TAn online store for browsing and purchasing solar energy products easily.",
-    description:
-      "This is a simple frontend website designed for selling solar-powered products. Users can browse products, view details, and navigate the store with ease. The project focuses on creating a clean and modern interface for online shopping. It emphasizes usability and user experience, making it easy for customers to find and purchase products. Although it’s frontend-only, it demonstrates a professional and responsive e-commerce layout.",
-    link: "/projects/project-4",
-  },
-  {
-    id: "project-1",
-    title: "Trading Challenge Tracker",
-    img: Challenge1,
-    screenshots: [Challenge1, Challenge2, Challenge3],
-    shortDescription: "Track your trading goals and progress easily.",
-    description:
-      "This project allows users to track their trading profits and monitor progress through different phases. When a phase is completed, the system generates a certificate that can be downloaded. Users can also manage their wallet by depositing or withdrawing funds manually after trading in MetaTrader. It functions similarly to a funded account platform, helping traders track performance and achievements in a structured way. The project is designed to make trading progress easy to follow and reward users for their milestones.",
-    link: "/projects/project-1",
   },
 ];
 
