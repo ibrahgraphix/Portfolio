@@ -32,6 +32,9 @@ import Gaza2 from "./assets/images/gaza2.png";
 import Uzunguni1 from "./assets/images/uzunguni1.png";
 import Uzunguni2 from "./assets/images/uzunguni2.png";
 import Uzunguni3 from "./assets/images/uzunguni3.png";
+import Jessi1 from "./assets/images/jessi1.png";
+import Jessi2 from "./assets/images/jessi2.png";
+
 
 const logotext = "IBRAHIM";
 const meta = {
@@ -94,6 +97,18 @@ const services = [
 ];
 
 const dataportfolio = [
+  {
+    id: "project-14",
+    title: "Jessi Collections",
+    img: Jessi1,
+    screenshots: [Jessi1, Jessi2],
+    shortDescription:
+      "A full working Ecommerce website for Jessi Collections Store",
+    description:
+      "This is a full working Ecommerce website for Jessi Collections Store. Users can browse products, view details, and contact the seller so as to purchase products. The website is designed to be user-friendly and easy to navigate. It is also responsive and can be accessed from different devices.",
+    link: "/projects/project-14",
+    live: "https://jessi.co.tz"
+  },
   {
     id: "project-7",
     title: "ToursConnect Booking System",
