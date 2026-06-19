@@ -51,7 +51,7 @@ const introdata = {
   },
   description:
     "Driven by curiosity and a love for creating impactful digital experiences.Enjoys solving problems through clean design and smart functionality.Always growing.",
-  your_img_url: "/ibrah.JPG",
+  your_img_url: "/ibrah.png",
 };
 
 const dataabout = {
