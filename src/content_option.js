@@ -34,6 +34,13 @@ import Uzunguni2 from "./assets/images/uzunguni2.png";
 import Uzunguni3 from "./assets/images/uzunguni3.png";
 import Jessi1 from "./assets/images/jessi1.png";
 import Jessi2 from "./assets/images/jessi2.png";
+import Angelbert1 from "./assets/images/angelbert1.png";
+import Angelbert2 from "./assets/images/angelbert2.png";
+import Angelbert3 from "./assets/images/angelbert3.png";
+import Saheel1 from "./assets/images/Saheel1.png";
+import Saheel2 from "./assets/images/Saheel2.png";
+import Saheel3 from "./assets/images/Saheel3.png";
+
 
 
 const logotext = "IBRAHIM";
@@ -122,6 +129,28 @@ const dataportfolio = [
     live: "https://tourconnect-sepia.vercel.app/",
   },
   {
+    id: "project-15",
+    title: "Angelbert Stores Website",
+    img: Angelbert1,
+    screenshots: [Angelbert1, Angelbert2, Angelbert3],
+    shortDescription:
+      "A clean and modern e-commerce catalog website for a kitchenware store in Arusha, Tanzania.",
+    description:
+      "This is a user-friendly kitchenware catalog website designed for Angelbert Stores based in Arusha, Tanzania. It showcases high-quality kitchen products, cookware sets, and dining items. Customers can easily browse the catalog, view prices in TSh, and place orders directly with the business via a WhatsApp integration. The interface supports multiple languages and offers responsive layouts to ensure a smooth shopping experience across mobile and desktop devices.",
+    link: "/projects/project-15",
+  },
+  {
+    id: "project-16",
+    title: "Saheel's Barbeque Website",
+    img: Saheel1,
+    screenshots: [Saheel1, Saheel2, Saheel3],
+    shortDescription:
+      "A vibrant and inviting website for a premier open patio barbeque restaurant in Arusha, Tanzania.",
+    description:
+      "This is a dynamic and responsive website designed for Saheel's Barbeque, a popular open patio restaurant located on Martin Road in Arusha, Tanzania. The website features an interactive food menu where customers can view delicious barbecue dishes, prices, and easily add items to their order. It also includes an about section sharing the story of their authentic East African recipes, operating hours, customer reviews, and contact information, providing a seamless ordering and dining inquiry experience.",
+    link: "/projects/project-16",
+  },
+  {
     id: "project-10",
     title: "MtaaMarket App- Ecommerce for Tanzania",
     img: Tour1,
@@ -143,7 +172,7 @@ const dataportfolio = [
     link: "/projects/project-12",
     live: "https://gaza-boe.vercel.app/",
   },
-   {
+  {
     id: "project-11",
     title: "Golden-Fork Restaurant Website",
     img: Fork1,
